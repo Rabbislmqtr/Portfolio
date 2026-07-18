@@ -51,7 +51,11 @@ Source inspected in the user's open Chrome/Figma tab on 2026-07-18:
 - [x] Honest static contact-form state
 - [x] Visible keyboard focus and skip link
 - [ ] Replace portrait placeholders with the owner's licensed portrait files
-- [ ] Replace abstract project artwork with real project screenshots and destinations
+- [x] Use supplied Spa System and Finance App screenshots in the correct project cards
+- [x] Generate portfolio, architecture, team-workspace, and travel artwork for the remaining cards
+- [x] Add MatAble CRM, Land & Home Investment, MediLab Hospital Management, and AL MAALI Tailoring ERP as real projects
+- [x] Add a Business Systems filter for ERP, CRM, finance, healthcare, spa, and investment work
+- [ ] Replace project contact links with final case-study destinations
 - [ ] Add final social URLs, email, CV file, and contact-form endpoint
 
 ## Asset policy

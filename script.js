@@ -19,7 +19,8 @@ document.querySelectorAll('.filters button').forEach(button => {
     button.classList.add('active');
     button.setAttribute('aria-pressed', 'true');
     document.querySelectorAll('.project-card').forEach(card => {
-      card.hidden = button.dataset.filter !== 'all' && card.dataset.category !== button.dataset.filter;
+      const categories = card.dataset.category.split(' ');
+      card.hidden = button.dataset.filter !== 'all' && !categories.includes(button.dataset.filter);
     });
   });
 });
