@@ -13,8 +13,11 @@ navigation.addEventListener('click', () => {
 
 document.querySelectorAll('.filters button').forEach(button => {
   button.addEventListener('click', () => {
-    document.querySelector('.filters .active').classList.remove('active');
+    const current = document.querySelector('.filters .active');
+    current.classList.remove('active');
+    current.setAttribute('aria-pressed', 'false');
     button.classList.add('active');
+    button.setAttribute('aria-pressed', 'true');
     document.querySelectorAll('.project-card').forEach(card => {
       card.hidden = button.dataset.filter !== 'all' && card.dataset.category !== button.dataset.filter;
     });
@@ -23,6 +26,5 @@ document.querySelectorAll('.filters button').forEach(button => {
 
 document.querySelector('form').addEventListener('submit', event => {
   event.preventDefault();
-  event.currentTarget.reset();
   document.querySelector('.success').hidden = false;
 });

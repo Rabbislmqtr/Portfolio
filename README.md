@@ -1,6 +1,8 @@
 # Rabbi Islam Portfolio
 
-Responsive dark portfolio based on supplied visual reference.
+Responsive dark portfolio implemented from the supplied Figma desktop and mobile reference.
+
+See `DESIGN_SPEC.md` for the inspected visual system, responsive rules, implementation checklist, and remaining owner-supplied assets.
 
 ## Edit content
 

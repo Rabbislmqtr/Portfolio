@@ -4,28 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfolio of Rabbi Islam, digital designer and builder based in Doha, Qatar.">
-  <title>Rabbi Islam — Digital Designer & Builder</title>
+  <title>Rabbi Islam — UI/UX Designer & Digital Builder</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#home">Skip to content</a>
   <header class="nav-shell">
     <a class="logo" href="#home" aria-label="Portfolio home"><span>R</span>I.</a>
     <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false"><i></i><i></i></button>
     <nav class="nav-links"><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#work">Portfolio</a><a href="#contact">Contact</a></nav>
-    <a class="button nav-cta" href="#contact">Hire me</a>
+    <a class="button nav-cta" href="#contact">Let’s talk</a>
   </header>
 
   <main>
     <section class="hero section" id="home">
       <div class="hero-copy">
-        <p class="eyebrow">HELLO, I'M</p><h1>Rabbi Islam</h1><h2>Digital <span>Designer</span><br>&amp; Builder.</h2>
+        <p class="eyebrow">HELLO, I’M RABBI</p><h1 class="sr-only">Rabbi Islam</h1><h2>UI/UX <span>Designer</span><br>&amp; Digital Builder.</h2>
         <p class="hero-text">I create useful digital products with strong visuals, smart systems and smooth user experiences.</p>
         <div class="hero-actions"><a class="button" href="#contact">Start a project</a><a class="button ghost" href="#work">See my work ↗</a></div>
         <div class="socials"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="LinkedIn">IN</a><a href="#" aria-label="GitHub">GH</a><a href="#" aria-label="Behance">BE</a></div>
       </div>
-      <div class="portrait-wrap"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="portrait-placeholder"><span>YOUR<br>PHOTO</span></div><div class="floating-card"><b>AVAILABLE</b><small>for select projects</small></div></div>
+      <div class="portrait-wrap" aria-label="Portrait placeholder"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="portrait-placeholder"><span>RI</span></div><div class="floating-card"><b>AVAILABLE</b><small>for select projects</small></div></div>
       <div class="stats"><div><strong>5+</strong><span>Years experience</span></div><div><strong>20+</strong><span>Projects completed</span></div><div><strong>30+</strong><span>Happy clients</span></div></div>
     </section>
+
+    <div class="stripe-band" aria-hidden="true"><span>DESIGN • BUILD • IMPROVE •</span></div>
 
     <section class="section" id="services">
       <div class="section-head"><p class="eyebrow">WHAT I DO</p><h2>Services built around<br><span>real outcomes.</span></h2><p>From first idea to final launch, each service connects design craft with practical business thinking.</p></div>
@@ -40,31 +44,33 @@
     </section>
 
     <section class="section about" id="about">
-      <div class="about-visual"><div class="about-photo">YOUR PHOTO</div><div class="experience"><strong>5</strong><span>years of<br>creative work</span></div></div>
-      <div class="about-copy"><p class="eyebrow">ABOUT ME</p><h2>Curious mind.<br><span>Practical maker.</span></h2><p>I combine thoughtful design, product thinking and frontend development to turn complex ideas into simple experiences. This copy stays easy to replace when your final content is ready.</p><p>My process is collaborative, focused and grounded in what users need.</p><a href="#contact">More about me ↗</a></div>
+      <div class="about-visual"><div class="about-photo" aria-label="Portrait placeholder"><span>RI</span></div><div class="experience"><strong>5</strong><span>years of<br>creative work</span></div></div>
+      <div class="about-copy"><p class="eyebrow">ABOUT ME</p><h2>Curious mind.<br><span>Practical maker.</span></h2><p>I combine thoughtful design, product thinking and frontend development to turn complex ideas into simple experiences.</p><p>My process is collaborative, focused and grounded in what users need.</p><a href="#contact">More about me ↗</a></div>
       <div class="skill-row"><div><b style="--p:94">94%</b><span>Figma</span></div><div><b style="--p:90">90%</b><span>UI Design</span></div><div><b style="--p:86">86%</b><span>Prototyping</span></div><div><b style="--p:78">78%</b><span>Frontend</span></div><div><b style="--p:72">72%</b><span>Branding</span></div></div>
     </section>
 
+    <div class="stripe-band reverse" aria-hidden="true"><span>SELECTED WORK • SELECTED WORK •</span></div>
+
     <section class="section work" id="work">
       <div class="section-head horizontal"><div><p class="eyebrow">SELECTED WORK</p><h2>Ideas made <span>visible.</span></h2></div><p>Placeholder projects ready for your real case studies, links and images.</p></div>
-      <div class="filters"><button class="active" data-filter="all">All</button><button data-filter="web">Web Design</button><button data-filter="app">App Design</button><button data-filter="brand">Branding</button></div>
+      <div class="filters" aria-label="Filter portfolio projects"><button class="active" data-filter="all" aria-pressed="true">All</button><button data-filter="web" aria-pressed="false">Web Design</button><button data-filter="app" aria-pressed="false">App Design</button><button data-filter="brand" aria-pressed="false">Branding</button></div>
       <div class="project-grid">
-        <article class="project-card orange" data-category="web"><div class="project-art"><span>01</span><strong>Finora</strong></div><div class="project-info"><div><p>Web Design</p><h3>Finance dashboard</h3></div><a href="#">↗</a></div></article>
-        <article class="project-card violet" data-category="brand"><div class="project-art"><span>02</span><strong>Noir Studio</strong></div><div class="project-info"><div><p>Branding</p><h3>Creative portfolio</h3></div><a href="#">↗</a></div></article>
-        <article class="project-card blue" data-category="app"><div class="project-art"><span>03</span><strong>Pulse</strong></div><div class="project-info"><div><p>App Design</p><h3>Fitness mobile app</h3></div><a href="#">↗</a></div></article>
-        <article class="project-card sand" data-category="web"><div class="project-art"><span>04</span><strong>Arc</strong></div><div class="project-info"><div><p>Web Design</p><h3>Architecture studio</h3></div><a href="#">↗</a></div></article>
-        <article class="project-card cyan" data-category="app"><div class="project-art"><span>05</span><strong>Loop</strong></div><div class="project-info"><div><p>App Design</p><h3>Team workspace</h3></div><a href="#">↗</a></div></article>
-        <article class="project-card green" data-category="brand"><div class="project-art"><span>06</span><strong>Northstar</strong></div><div class="project-info"><div><p>Branding</p><h3>Travel identity</h3></div><a href="#">↗</a></div></article>
+        <article class="project-card orange" data-category="web"><div class="project-art"><span>01</span><strong>Finora</strong></div><div class="project-info"><div><p>Web Design</p><h3>Finance dashboard</h3></div><a href="#contact" aria-label="Ask about Finora">↗</a></div></article>
+        <article class="project-card violet" data-category="brand"><div class="project-art"><span>02</span><strong>Noir Studio</strong></div><div class="project-info"><div><p>Branding</p><h3>Creative portfolio</h3></div><a href="#contact" aria-label="Ask about Noir Studio">↗</a></div></article>
+        <article class="project-card blue" data-category="app"><div class="project-art"><span>03</span><strong>Pulse</strong></div><div class="project-info"><div><p>App Design</p><h3>Fitness mobile app</h3></div><a href="#contact" aria-label="Ask about Pulse">↗</a></div></article>
+        <article class="project-card sand" data-category="web"><div class="project-art"><span>04</span><strong>Arc</strong></div><div class="project-info"><div><p>Web Design</p><h3>Architecture studio</h3></div><a href="#contact" aria-label="Ask about Arc">↗</a></div></article>
+        <article class="project-card cyan" data-category="app"><div class="project-art"><span>05</span><strong>Loop</strong></div><div class="project-info"><div><p>App Design</p><h3>Team workspace</h3></div><a href="#contact" aria-label="Ask about Loop">↗</a></div></article>
+        <article class="project-card green" data-category="brand"><div class="project-art"><span>06</span><strong>Northstar</strong></div><div class="project-info"><div><p>Branding</p><h3>Travel identity</h3></div><a href="#contact" aria-label="Ask about Northstar">↗</a></div></article>
       </div>
     </section>
 
     <section class="section contact" id="contact">
       <div class="contact-copy"><p class="eyebrow">CONTACT</p><h2>Have something<br>in mind? <span>Let's talk.</span></h2><p>Tell me about your idea, timeline and goal. I'll reply with next steps.</p><small>EMAIL</small><a href="mailto:hello@example.com">hello@example.com</a><small>LOCATION</small><span>Doha, Qatar</span></div>
-      <form><div><label>Name<input required placeholder="Your name"></label><label>Email<input required type="email" placeholder="you@email.com"></label></div><label>Service<select required><option value="">Select a service</option><option>UI/UX Design</option><option>Web Design</option><option>Frontend Build</option><option>Brand Identity</option></select></label><label>Project details<textarea required placeholder="A few details about your project..."></textarea></label><button class="button" type="submit">Send message</button><p class="success" hidden>Message captured. Connect real email endpoint later.</p></form>
+      <form><div><label>Name<input name="name" autocomplete="name" required placeholder="Your name"></label><label>Email<input name="email" autocomplete="email" required type="email" placeholder="you@email.com"></label></div><label>Service<select name="service" required><option value="">Select a service</option><option>UI/UX Design</option><option>Web Design</option><option>Frontend Build</option><option>Brand Identity</option></select></label><label>Project details<textarea name="message" required placeholder="A few details about your project..."></textarea></label><button class="button" type="submit">Send message</button><p class="success" role="status" hidden>This preview is ready. Add your contact endpoint to send messages.</p></form>
     </section>
   </main>
 
-  <footer><a class="logo" href="#home"><span>R</span>I.</a><p>Designer and builder of useful digital experiences.</p><nav><a href="#services">Services</a><a href="#about">About</a><a href="#work">Work</a></nav><small>© 2026 Rabbi Islam. Replace content anytime.</small></footer>
+  <footer><a class="logo" href="#home"><span>R</span>I.</a><p>Designer and builder of useful digital experiences.</p><nav aria-label="Footer navigation"><a href="#services">Services</a><a href="#about">About</a><a href="#work">Work</a></nav><small>© 2026 Rabbi Islam. All rights reserved.</small></footer>
   <script src="script.js"></script>
 </body>
 </html>
